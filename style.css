@@ -5,7 +5,15 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to top right, #ffb3ba, #ffe0f0, #bae1ff); /* Soft gradient background */
+
+    /* --- NEW BACKGROUND IMAGE PROPERTIES --- */
+    background-image: url('friend_background.jpg'); /* <-- REPLACE with your image filename */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* --- END NEW BACKGROUND IMAGE PROPERTIES --- */
+
     overflow: hidden; /* Hide overflow for animations */
     position: relative;
 }
